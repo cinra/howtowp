@@ -18,6 +18,23 @@
 - [ ] `http://wp.test`にアクセスして、Wordpressをインストールする
 - [ ] Wordpressの管理画面にログインする
 
+## 4. MySQL
+
+- [ ] Dockerコンテナ`wp_mysql`をexec
+- [ ] MySQLの内容を`develop.sql`という名前でエクスポート
+
+## 5. Node
+
+- [ ] NVMをインストール
+- [ ] yarnをインストール
+
+## 6. Nuxt
+
+- [ ] Nuxtを立ち上げる
+- [ ] `http://localhost:3000`にアクセス
+
+
+
 ---
 
 ### hostsの書き換え
@@ -36,4 +53,23 @@ $ docker-compose build
 
 ```
 $ docker-compose up -d
+```
+
+### Dockerコンテナを実行
+
+```
+$ docker exec {{ コンテナ名 }}
+```
+
+例：MySQLのコンテナにログインする
+
+```
+$ docker exec -it wp_mysql bash
+```
+
+### Nuxtの立ち上げ
+
+```
+$ cd src
+$ yarn run dev
 ```
