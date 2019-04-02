@@ -1,0 +1,32 @@
+[Tue Apr 02 11:36:00.236254 2019] [core:warn] [pid 1] AH00111: Config variable ${DOMAIN} is not defined
+[Tue Apr 02 11:36:00.236823 2019] [core:warn] [pid 1] AH00111: Config variable ${APACHE_DOCROOT} is not defined
+[Tue Apr 02 11:36:00.237335 2019] [core:warn] [pid 1] AH00111: Config variable ${APACHE_DOCROOT} is not defined
+AH00112: Warning: DocumentRoot [/etc/apache2/${APACHE_DOCROOT}] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 02 11:36:00.257461 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Tue Apr 02 11:36:00.257998 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Apr 02 11:43:02.813731 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Tue Apr 02 11:43:05.862515 2019] [core:warn] [pid 1] AH00111: Config variable ${DOMAIN} is not defined
+[Tue Apr 02 11:43:05.865047 2019] [core:warn] [pid 1] AH00111: Config variable ${APACHE_DOCROOT} is not defined
+[Tue Apr 02 11:43:05.866611 2019] [core:warn] [pid 1] AH00111: Config variable ${APACHE_DOCROOT} is not defined
+AH00112: Warning: DocumentRoot [/etc/apache2/${APACHE_DOCROOT}] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 02 11:43:05.946456 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Tue Apr 02 11:43:05.949769 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Apr 02 11:45:32.067353 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Tue Apr 02 11:45:35.232970 2019] [core:warn] [pid 1] AH00111: Config variable ${DOMAIN} is not defined
+[Tue Apr 02 11:45:35.233920 2019] [core:warn] [pid 1] AH00111: Config variable ${APACHE_DOCROOT} is not defined
+[Tue Apr 02 11:45:35.235397 2019] [core:warn] [pid 1] AH00111: Config variable ${APACHE_DOCROOT} is not defined
+AH00112: Warning: DocumentRoot [/etc/apache2/${APACHE_DOCROOT}] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 02 11:45:35.306759 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Tue Apr 02 11:45:35.307371 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Apr 02 11:45:59.678406 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 02 11:46:02.713407 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Tue Apr 02 11:46:02.716527 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Apr 02 11:46:56.468161 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 02 11:47:20.677644 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Tue Apr 02 11:47:20.679587 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+sh: 1: -t: not found

@@ -1,0 +1,28 @@
+version: '2'
+services:
+  wp:
+    build: ./www
+    container_name: wp_wp
+    volumes:
+      - ./www/html/assets:/var/www/html/assets
+      - ./data/log/apache:/var/log/apache2
+    ports:
+      - 80:80
+    links:
+      - mysql
+    env_file:
+      - docker.env
+  mysql:
+    image: mysql:5.7.21
+    container_name: wp_mysql
+    ports:
+      - 3306:3306
+    working_dir: /sql
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+      - ./data/sql:/sql
+      - ./data/log/mysql:/var/log/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    env_file:
+      - docker.env
